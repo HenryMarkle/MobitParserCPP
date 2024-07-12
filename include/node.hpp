@@ -3,7 +3,6 @@
 #include <memory>
 #include <vector>
 #include <unordered_map>
-#include <optional>
 
 #include <token.hpp>
 
