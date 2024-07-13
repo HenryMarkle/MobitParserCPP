@@ -15,7 +15,10 @@ add_library(MobitParser STATIC ${SOURCES})
 
 add_compile_definitions(DEBUG_LOG)
 
-target_include_directories(MobitParser PUBLIC ${PROJECT_SOURCE_DIR}/include)
+target_include_directories(MobitParser PUBLIC 
+    $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+    $<INSTALL_INTERFACE:include>
+)
 
 include(CTest)
 enable_testing()

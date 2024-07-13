@@ -6,8 +6,8 @@
 #include <stack>
 #include <unordered_map>
 
-#include <node.hpp>
-#include <token.hpp>
+#include <MobitParser/node.hpp>
+#include <MobitParser/token.hpp>
 
 using std::string;
 using std::vector;

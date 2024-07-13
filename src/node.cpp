@@ -4,7 +4,7 @@
 #include <iostream>
 #include <unordered_map>
 
-#include <node.hpp>
+#include <MobitParser/node.hpp>
 
 using namespace hmp;
 

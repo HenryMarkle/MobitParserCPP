@@ -1,10 +1,12 @@
+#pragma once
+
 #include <iostream>
 #include <string>
 #include <memory>
 #include <vector>
 #include <unordered_map>
 
-#include <token.hpp>
+#include <MobitParser/token.hpp>
 
 namespace hmp {
     class AST_Node {

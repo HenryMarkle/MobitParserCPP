@@ -3,7 +3,7 @@
 #include <memory>
 #include <iostream>
 
-#include <token.hpp>
+#include <MobitParser/token.hpp>
 
 using namespace hmp;
 
