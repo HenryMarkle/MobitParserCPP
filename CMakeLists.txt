@@ -20,6 +20,8 @@ target_include_directories(MobitParser PUBLIC
     $<INSTALL_INTERFACE:include>
 )
 
+target_compile_definitions(MobitParser PRIVATE LOCAL_LIBRARY_BUILD)
+
 include(CTest)
 enable_testing()
 
